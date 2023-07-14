@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL     &kp N1    &kp N2   &kp N3       &kp N4  &kp N5               &tog 1                                                                         &mo 3  &kp N6    &kp N7      &kp N8    &kp N9    &kp N0       &none
-      &kp TAB      &kp Q     &kp W    &kp E        &kp R   &kp T                &none                                                                     &kp MINUS   &kp Y     &kp U       &kp I     &kp O     &kp P    &kp BSLH
- &kp CAPSLOCK      &kp A     &kp S    &kp D        &kp F   &kp G                &none  &kp LCTRL      &kp LALT   &none   &none  &kp LGUI  &kp RCTRL  &kp APOSTROPHE   &kp H     &kp J       &kp K     &kp L  &kp SEMI  &kp RETURN
-    &kp LSHFT      &kp Z     &kp X    &kp C        &kp V   &kp B                &none      &none   &macro_copy   &none   &none  &kp HOME      &none           &none   &kp N     &kp M   &kp COMMA   &kp DOT  &kp FSLH   &kp RSHFT
-        &mo 2  &kp GRAVE  &kp CAPS  &kp ESC  &macro_undo                    &kp SPACE    &kp DEL  &macro_paste                   &kp END   &kp BSPC       &kp SPACE          &kp BSPC  &kp RETURN  &kp LBKT  &kp RBKT       &mo 2
+    &kp EQUAL     &kp N1    &kp N2   &kp N3       &kp N4  &kp N5                     &tog 1                                                                         &mo 3  &kp N6    &kp N7      &kp N8    &kp N9    &kp N0       &none
+      &kp TAB      &kp Q     &kp W    &kp E        &kp R   &kp T            &kp PRINTSCREEN                                                                     &kp MINUS   &kp Y     &kp U       &kp I     &kp O     &kp P    &kp BSLH
+ &kp CAPSLOCK      &kp A     &kp S    &kp D        &kp F   &kp G            &kp PAUSE_BREAK  &kp LCTRL      &kp LALT   &none   &none  &kp LGUI  &kp RCTRL  &kp APOSTROPHE   &kp H     &kp J       &kp K     &kp L  &kp SEMI  &kp RETURN
+    &kp LSHFT      &kp Z     &kp X    &kp C        &kp V   &kp B                      &none      &none   &macro_copy   &none   &none  &kp HOME      &none           &none   &kp N     &kp M   &kp COMMA   &kp DOT  &kp FSLH   &kp RSHFT
+        &mo 2  &kp GRAVE  &kp CAPS  &kp ESC  &macro_undo                          &kp SPACE    &kp DEL  &macro_paste                   &kp END   &kp BSPC       &kp SPACE          &kp BSPC  &kp RETURN  &kp LBKT  &kp RBKT       &mo 2
             >;
         };
 
